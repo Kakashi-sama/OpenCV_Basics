@@ -17,7 +17,7 @@ font = cv2.FONT_HERSHEY_SCRIPT_SIMPLEX
 
 img = cv2.putText(img, 'Vamshi', (120,440), font, 1, (255,0,255), 1, cv2.LINE_AA)
 
-cv2.imshow('dhodi', img)
+cv2.imshow('frame', img)
 
 cv2.waitKey(0) & 0xFF
 
