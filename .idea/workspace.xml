@@ -26,14 +26,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2969a22-65e0-42fb-955d-e8739c609e1f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Searching Coordinates of face.py" beforeDir="false" afterPath="$PROJECT_DIR$/Searching Coordinates of face.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mouse.py" beforeDir="false" afterPath="$PROJECT_DIR$/mouse.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/operation_on_images.py" beforeDir="false" afterPath="$PROJECT_DIR$/operation_on_images.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scratch.py" beforeDir="false" afterPath="$PROJECT_DIR$/scratch.py" afterDir="false" />
-    </list>
+    <list default="true" id="a2969a22-65e0-42fb-955d-e8739c609e1f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -193,12 +186,12 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.scratch" />
       <item itemvalue="Python.Searching Coordinates of face" />
+      <item itemvalue="Python.VCap" />
+      <item itemvalue="Python.scratch" />
+      <item itemvalue="Python.test" />
       <item itemvalue="Python.trackbar1" />
       <item itemvalue="Python.trackbar2" />
-      <item itemvalue="Python.VCap" />
-      <item itemvalue="Python.test" />
     </list>
     <recent_temporary>
       <list>
@@ -229,7 +222,21 @@
       <option name="project" value="LOCAL" />
       <updated>1606467410401</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="bew">
+      <created>1606469001378</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1606469001378</updated>
+    </task>
+    <task id="LOCAL-00004" summary="bew">
+      <created>1606469016648</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1606469016648</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -258,7 +265,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;Win Name changed&quot;" />
     <MESSAGE value="no idea" />
-    <option name="LAST_COMMIT_MESSAGE" value="no idea" />
+    <MESSAGE value="bew" />
+    <option name="LAST_COMMIT_MESSAGE" value="bew" />
   </component>
   <component name="WindowStateProjectService">
     <state x="686" y="31" width="850" height="833" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606468412933">
@@ -273,22 +281,22 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="932" y="199" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1606468683189" />
-    <state width="1515" height="216" key="GridCell.Tab.0.bottom" timestamp="1606468436783">
+    <state width="746" height="216" key="GridCell.Tab.0.bottom" timestamp="1606468938486">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="216" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1606468436783" />
-    <state width="1515" height="216" key="GridCell.Tab.0.center" timestamp="1606468436782">
+    <state width="746" height="216" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1606468938486" />
+    <state width="746" height="216" key="GridCell.Tab.0.center" timestamp="1606468938486">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="216" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1606468436782" />
-    <state width="1515" height="216" key="GridCell.Tab.0.left" timestamp="1606468436782">
+    <state width="746" height="216" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1606468938486" />
+    <state width="746" height="216" key="GridCell.Tab.0.left" timestamp="1606468938486">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="216" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1606468436782" />
-    <state width="1515" height="216" key="GridCell.Tab.0.right" timestamp="1606468436782">
+    <state width="746" height="216" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1606468938486" />
+    <state width="746" height="216" key="GridCell.Tab.0.right" timestamp="1606468938486">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="216" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1606468436782" />
+    <state width="746" height="216" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1606468938486" />
     <state x="591" y="76" width="914" height="709" key="SettingsEditor" timestamp="1606468857961">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -301,9 +309,9 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="599" height="428" key="javadoc.popup/0.0.1536.864@0.0.1536.864" timestamp="1606018161772" />
-    <state x="826" y="185" width="672" height="678" key="search.everywhere.popup" timestamp="1605590154450">
+    <state x="826" y="185" width="672" height="678" key="search.everywhere.popup" timestamp="1606469165071">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="826" y="185" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1605590154450" />
+    <state x="826" y="185" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1606469165071" />
   </component>
 </project>
