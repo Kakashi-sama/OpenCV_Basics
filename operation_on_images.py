@@ -18,7 +18,7 @@ img2 = cv2.resize(img2, (512,512))
 
 #dst = cv2.add(img, img2)
 dst = cv2.addWeighted(img, 0.9, img2, 0.1, 0) #Similar to add but can add weights to the images
-cv2.imshow('dhodi', dst)
+cv2.imshow('frame', dst)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 
