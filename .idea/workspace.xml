@@ -26,7 +26,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2969a22-65e0-42fb-955d-e8739c609e1f" name="Default Changelist" comment="" />
+    <list default="true" id="a2969a22-65e0-42fb-955d-e8739c609e1f" name="Default Changelist" comment="bew">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,7 +60,7 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.test">
+  <component name="RunManager" selected="Python.mouse">
     <configuration name="Searching Coordinates of face" type="PythonConfigurationType" factoryName="Python" singleton="false" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -93,6 +95,27 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/VCap.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mouse" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pyTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mouse.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -186,15 +209,17 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.Searching Coordinates of face" />
-      <item itemvalue="Python.VCap" />
       <item itemvalue="Python.scratch" />
-      <item itemvalue="Python.test" />
+      <item itemvalue="Python.Searching Coordinates of face" />
       <item itemvalue="Python.trackbar1" />
       <item itemvalue="Python.trackbar2" />
+      <item itemvalue="Python.VCap" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.mouse" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.mouse" />
         <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
@@ -236,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606469016648</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="bew">
+      <created>1606469817964</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1606469817964</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -261,6 +293,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;Win Name changed&quot;" />
@@ -281,26 +314,34 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="932" y="199" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1606468683189" />
-    <state width="746" height="216" key="GridCell.Tab.0.bottom" timestamp="1606468938486">
+    <state width="772" height="210" key="GridCell.Tab.0.bottom" timestamp="1606469920289">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="746" height="216" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1606468938486" />
-    <state width="746" height="216" key="GridCell.Tab.0.center" timestamp="1606468938486">
+    <state width="772" height="210" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1606469920289" />
+    <state width="772" height="210" key="GridCell.Tab.0.center" timestamp="1606469920288">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="746" height="216" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1606468938486" />
-    <state width="746" height="216" key="GridCell.Tab.0.left" timestamp="1606468938486">
+    <state width="772" height="210" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1606469920288" />
+    <state width="772" height="210" key="GridCell.Tab.0.left" timestamp="1606469920288">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="746" height="216" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1606468938486" />
-    <state width="746" height="216" key="GridCell.Tab.0.right" timestamp="1606468938486">
+    <state width="772" height="210" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1606469920288" />
+    <state width="772" height="210" key="GridCell.Tab.0.right" timestamp="1606469920288">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="746" height="216" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1606468938486" />
+    <state width="772" height="210" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1606469920288" />
     <state x="591" y="76" width="914" height="709" key="SettingsEditor" timestamp="1606468857961">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="591" y="76" width="914" height="709" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1606468857961" />
+    <state x="722" y="165" key="Vcs.Push.Dialog.v2" timestamp="1606469811153">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="722" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1606469811153" />
+    <state x="958" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606469792952">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="958" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864@0.0.1536.864" timestamp="1606469792952" />
     <state x="478" y="165" width="579" height="592" key="find.popup" timestamp="1606467701110">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
