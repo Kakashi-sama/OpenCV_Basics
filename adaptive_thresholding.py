@@ -1,7 +1,8 @@
+# Learn about adaptive methods in detail
 import cv2
 
-img = cv2.imread("C:\\Users\\bojan\\PycharmProjects\\pyTest\\resources\\sudoku.png", 0)
-_, th1 = cv2.threshold(img, 127, 255, cv2.THRESH_BINARY)
+img = cv2.imread("resources\\sudoku.png", 0)
+# _, th1 = cv2.threshold(img, 127, 255, cv2.THRESH_BINARY)
 th2 = cv2.adaptiveThreshold(img, 255, cv2.ADAPTIVE_THRESH_MEAN_C, cv2.THRESH_BINARY, 11, 2)
 th3 = cv2.adaptiveThreshold(img, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY, 11, 2)
 

@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -26,8 +29,15 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2969a22-65e0-42fb-955d-e8739c609e1f" name="Default Changelist" comment="bew">
+    <list default="true" id="a2969a22-65e0-42fb-955d-e8739c609e1f" name="Default Changelist" comment="thresholding updated">
+      <change afterPath="$PROJECT_DIR$/image_gradient_and_canny_edge_detection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/matplotlib_with_opencv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/morphological_transformation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/Halftone_Gaussian_Blur.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/water.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smoothing_and _blurring_images.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adaptive_thresholding.py" beforeDir="false" afterPath="$PROJECT_DIR$/adaptive_thresholding.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +54,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProblemsViewState">
+    <hideBySeverity>
+      <option value="15" />
+    </hideBySeverity>
+    <option name="sortByName" value="true" />
+  </component>
   <component name="ProjectId" id="1kMxtEOoNzz6X0oYz0IddTmfwSt" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -56,24 +72,25 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/object_detection_trackbar.py" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/object_detection_trackbar.py" />
   </component>
-  <component name="RunManager" selected="Python.mouse">
-    <configuration name="Searching Coordinates of face" type="PythonConfigurationType" factoryName="Python" singleton="false" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.image_gradient_and_canny_edge_detection">
+    <configuration name="Searching_Coordinates_of_face" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="pyTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\bojan\PycharmProjects\pyTest\venv\Scripts\python.exe" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Searching Coordinates of face.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\bojan\PycharmProjects\pyTest\Searching_Coordinates_of_face.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -83,17 +100,17 @@
       <method v="2" />
     </configuration>
     <configuration name="VCap" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="pyTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\bojan\PycharmProjects\pyTest\venv\Scripts\python.exe" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/VCap.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -103,7 +120,133 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mouse" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="adaptive_thresholding" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="pyTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/adaptive_thresholding.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="bitwise_operations" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="pyTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bitwise_operations.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="geometry" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="pyTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/geometry.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="image_gradient_and_canny_edge_detection" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pyTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/image_gradient_and_canny_edge_detection.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="matplotlib_with_opencv" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="pyTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/matplotlib_with_opencv.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="morphological_transformation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pyTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/morphological_transformation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mouse" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="pyTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -124,18 +267,123 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="scratch" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="object_detection" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="pyTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\bojan\PycharmProjects\pyTest\venv\Scripts\python.exe" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/object_detection.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="object_detection_trackbar" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="pyTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/object_detection_trackbar.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="operation_on_images" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="pyTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/operation_on_images.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pyBasics" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="pyTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pyBasics.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pyTest" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="pyTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="scratch" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="pyTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scratch.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -145,19 +393,40 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="smoothing_and _blurring_images" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pyTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\bojan\PycharmProjects\pyTest\venv\Scripts\python.exe" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/smoothing_and _blurring_images.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="thresholding" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="pyTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/thresholding.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -167,17 +436,17 @@
       <method v="2" />
     </configuration>
     <configuration name="trackbar1" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="pyTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\bojan\PycharmProjects\pyTest\venv\Scripts\python.exe" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/trackbar1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -188,17 +457,17 @@
       <method v="2" />
     </configuration>
     <configuration name="trackbar2" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="pyTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\bojan\PycharmProjects\pyTest\venv\Scripts\python.exe" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/trackbar2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -209,18 +478,31 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.pyTest" />
+      <item itemvalue="Python.Searching_Coordinates_of_face" />
+      <item itemvalue="Python.VCap" />
+      <item itemvalue="Python.adaptive_thresholding" />
+      <item itemvalue="Python.bitwise_operations" />
+      <item itemvalue="Python.geometry" />
+      <item itemvalue="Python.matplotlib_with_opencv" />
+      <item itemvalue="Python.mouse" />
+      <item itemvalue="Python.object_detection" />
+      <item itemvalue="Python.object_detection_trackbar" />
+      <item itemvalue="Python.operation_on_images" />
+      <item itemvalue="Python.pyBasics" />
       <item itemvalue="Python.scratch" />
-      <item itemvalue="Python.Searching Coordinates of face" />
+      <item itemvalue="Python.thresholding" />
       <item itemvalue="Python.trackbar1" />
       <item itemvalue="Python.trackbar2" />
-      <item itemvalue="Python.VCap" />
-      <item itemvalue="Python.test" />
-      <item itemvalue="Python.mouse" />
+      <item itemvalue="Python.morphological_transformation" />
+      <item itemvalue="Python.smoothing_and _blurring_images" />
+      <item itemvalue="Python.image_gradient_and_canny_edge_detection" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.mouse" />
-        <item itemvalue="Python.test" />
+        <item itemvalue="Python.image_gradient_and_canny_edge_detection" />
+        <item itemvalue="Python.smoothing_and _blurring_images" />
+        <item itemvalue="Python.morphological_transformation" />
       </list>
     </recent_temporary>
   </component>
@@ -268,7 +550,49 @@
       <option name="project" value="LOCAL" />
       <updated>1606469817964</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="new">
+      <created>1606470144038</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1606470144038</updated>
+    </task>
+    <task id="LOCAL-00007" summary="func removed">
+      <created>1606572674575</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1606572674575</updated>
+    </task>
+    <task id="LOCAL-00008" summary="object Detection modified">
+      <created>1606572731614</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1606572731614</updated>
+    </task>
+    <task id="LOCAL-00009" summary="new">
+      <created>1606624708629</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1606624708629</updated>
+    </task>
+    <task id="LOCAL-00010" summary="update">
+      <created>1606626393811</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1606626393811</updated>
+    </task>
+    <task id="LOCAL-00011" summary="thresholding updated">
+      <created>1606626461852</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1606626461852</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -299,49 +623,70 @@
     <MESSAGE value="&quot;Win Name changed&quot;" />
     <MESSAGE value="no idea" />
     <MESSAGE value="bew" />
-    <option name="LAST_COMMIT_MESSAGE" value="bew" />
+    <MESSAGE value="func removed" />
+    <MESSAGE value="object Detection modified" />
+    <MESSAGE value="new" />
+    <MESSAGE value="update" />
+    <MESSAGE value="thresholding updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="thresholding updated" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="686" y="31" width="850" height="833" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606468412933">
+    <state x="735" y="126" key="#Inspections" timestamp="1606625888318">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="686" y="31" width="850" height="833" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1606468412933" />
+    <state x="735" y="126" key="#Inspections/0.0.1536.864@0.0.1536.864" timestamp="1606625888318" />
+    <state x="486" y="7" width="850" height="857" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606621696439">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="486" y="7" width="850" height="857" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1606621696439" />
+    <state x="871" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606470045548">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="871" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1606470045548" />
+    <state x="906" y="95" width="417" height="670" maximized="true" key="DiffContextDialog" timestamp="1606624743631">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="906" y="95" width="417" height="670" maximized="true" key="DiffContextDialog/0.0.1536.864@0.0.1536.864" timestamp="1606624743631" />
     <state x="335" y="166" key="EnvironmentVariablesDialog" timestamp="1606467907137">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="335" y="166" key="EnvironmentVariablesDialog/0.0.1536.864@0.0.1536.864" timestamp="1606467907137" />
-    <state x="932" y="199" key="FileChooserDialogImpl" timestamp="1606468683189">
+    <state x="835" y="245" key="FileChooserDialogImpl" timestamp="1606623251333">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="932" y="199" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1606468683189" />
-    <state width="772" height="210" key="GridCell.Tab.0.bottom" timestamp="1606469920289">
+    <state x="835" y="245" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1606623251333" />
+    <state width="862" height="202" key="GridCell.Tab.0.bottom" timestamp="1606759522917">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="772" height="210" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1606469920289" />
-    <state width="772" height="210" key="GridCell.Tab.0.center" timestamp="1606469920288">
+    <state width="862" height="202" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1606759522917" />
+    <state width="862" height="202" key="GridCell.Tab.0.center" timestamp="1606759522917">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="772" height="210" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1606469920288" />
-    <state width="772" height="210" key="GridCell.Tab.0.left" timestamp="1606469920288">
+    <state width="862" height="202" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1606759522917" />
+    <state width="862" height="202" key="GridCell.Tab.0.left" timestamp="1606759522917">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="772" height="210" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1606469920288" />
-    <state width="772" height="210" key="GridCell.Tab.0.right" timestamp="1606469920288">
+    <state width="862" height="202" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1606759522917" />
+    <state width="862" height="202" key="GridCell.Tab.0.right" timestamp="1606759522917">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="772" height="210" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1606469920288" />
-    <state x="591" y="76" width="914" height="709" key="SettingsEditor" timestamp="1606468857961">
+    <state width="862" height="202" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1606759522917" />
+    <state x="1040" y="138" key="RollbackChangesDialog" timestamp="1606628611252">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="591" y="76" width="914" height="709" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1606468857961" />
-    <state x="722" y="165" key="Vcs.Push.Dialog.v2" timestamp="1606469811153">
+    <state x="1040" y="138" key="RollbackChangesDialog/0.0.1536.864@0.0.1536.864" timestamp="1606628611252" />
+    <state x="622" y="24" width="914" height="709" key="SettingsEditor" timestamp="1606627568946">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="722" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1606469811153" />
-    <state x="958" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606469792952">
+    <state x="622" y="24" width="914" height="709" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1606627568946" />
+    <state x="722" y="165" key="Vcs.Push.Dialog.v2" timestamp="1606626500878">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="958" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864@0.0.1536.864" timestamp="1606469792952" />
+    <state x="722" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1606626500878" />
+    <state x="958" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606626353953">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="958" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864@0.0.1536.864" timestamp="1606626353953" />
     <state x="478" y="165" width="579" height="592" key="find.popup" timestamp="1606467701110">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -350,9 +695,9 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="599" height="428" key="javadoc.popup/0.0.1536.864@0.0.1536.864" timestamp="1606018161772" />
-    <state x="826" y="185" width="672" height="678" key="search.everywhere.popup" timestamp="1606469165071">
+    <state x="839" y="150" width="672" height="678" key="search.everywhere.popup" timestamp="1606570042162">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="826" y="185" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1606469165071" />
+    <state x="839" y="150" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1606570042162" />
   </component>
 </project>
