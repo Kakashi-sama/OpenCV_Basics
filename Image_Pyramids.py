@@ -16,8 +16,8 @@ cv2.imshow('pyrUp1', hr2)  # hr1 and lr1 are not the same
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 """""
-# Gaussian Pyramid has 2 functions PyrUp and PyrDown.
-# Laplacian Pyramid has no method defined explicitly.
+# Gaussian Pyramid has 2 functions PyrUp and PyrDown. (gp)
+# Laplacian Pyramid has no method defined explicitly.(lp)
 
 import cv2
 
@@ -30,8 +30,7 @@ for i in range(6):
     gp.append(layer)
     # cv2.imshow(str(i), layer)
 
-layer = gp[5]
-cv2.imshow('upper level gaussian pyramid', layer)
+layer = gp[5]  # Upper most layer in the pyramid
 lp = [layer]
 
 for i in range(5, 0, -1):
@@ -40,6 +39,6 @@ for i in range(5, 0, -1):
     cv2.imshow(str(i), laplacian)
 
 
-cv2.imshow('Original image', img)
+# cv2.imshow('Original image', img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
