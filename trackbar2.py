@@ -1,7 +1,11 @@
 # Printing trackbar number on the image
 import cv2
+
+
 def nothing(x):
     print(x)
+
+
 # Create a black image, a window
 
 cv2.namedWindow('image')
@@ -16,15 +20,15 @@ while 1:
 
     pos = cv2.getTrackbarPos('pos', 'image')
     font = cv2.FONT_HERSHEY_SIMPLEX
-    cv2.putText(img, str(pos),(50, 150), font, 4, (0,0,255), 20)
+    cv2.putText(img, str(pos), (50, 150), font, 4, (0, 0, 255), 20)
 
-    k = cv2.waitKey(1) &0XFF
+    k = cv2.waitKey(1) & 0XFF
     if k == 27:
         break
 
     s = cv2.getTrackbarPos('Switch', 'image')
 
-    if s ==0 :
+    if s == 0:
         pass
     else:
         img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
