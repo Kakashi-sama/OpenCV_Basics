@@ -1,11 +1,10 @@
 import cv2
 
 # Creating a CascadeClassifier Object
-face_cascade = cv2.CascadeClassifier(
-    "C:\\Users\\bojan\\PycharmProjects\\pyTest\\resources\\haarcascade_frontalface_default.xml")
+face_cascade = cv2.CascadeClassifier("resources\\haarcascade_frontalface_default.xml")
 
 # reading the Image
-img = cv2.imread("C:\\Users\\bojan\\PycharmProjects\\pyTest\\resources\\Vamshi photo.jpg", 1)
+img = cv2.imread("resources\\Vamshi photo.jpg", 1)
 
 # Reading the image as gray scale image
 gray_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
