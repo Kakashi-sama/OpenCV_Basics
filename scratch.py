@@ -3,7 +3,7 @@ from datetime import datetime
 
 first_frame = None
 
-face_cascade = cv2.CascadeClassifier("C:\\Users\\bojan\\PycharmProjects\\pyTest\\resources\\haarcascade_frontalface_default.xml")
+face_cascade = cv2.CascadeClassifier("resources\\haarcascade_frontalface_default.xml")
 
 video = cv2.VideoCapture(0, cv2.CAP_DSHOW)
 
