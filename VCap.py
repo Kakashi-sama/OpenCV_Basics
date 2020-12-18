@@ -41,14 +41,14 @@ import cv2
 from datetime import datetime
 
 video = cv2.VideoCapture(0)
-#print(video.get(cv2.CAP_PROP_FRAME_HEIGHT))
-#print(video.get(cv2.CAP_PROP_FRAME_WIDTH))
+# print(video.get(cv2.CAP_PROP_FRAME_HEIGHT))
+# print(video.get(cv2.CAP_PROP_FRAME_WIDTH))
 
 video.set(3, 700000)
 video.set(4, 700000)
 
-#print(video.get(3))
-#print(video.get(4))
+# print(video.get(3))
+# print(video.get(4))
 
 while video.isOpened():
     check,frame = video.read()

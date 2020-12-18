@@ -30,17 +30,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2969a22-65e0-42fb-955d-e8739c609e1f" name="Default Changelist" comment="updated">
-      <change afterPath="$PROJECT_DIR$/Histograms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hough_circle-transform.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hough_line_and_Probabilistic_line_transform.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/detector.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/face_detection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lane.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/messi5_face.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/road.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template_matching.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/haarcascade_eye_tree_eyeglasses.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scratch.py" beforeDir="false" afterPath="$PROJECT_DIR$/scratch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VCap.py" beforeDir="false" afterPath="$PROJECT_DIR$/VCap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_detection.py" beforeDir="false" afterPath="$PROJECT_DIR$/face_detection.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -548,9 +541,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.face_detection" />
+        <item itemvalue="Python.detector" />
         <item itemvalue="Python.Searching_Coordinates_of_face (1)" />
         <item itemvalue="Python.Hough_circle-transform" />
-        <item itemvalue="Python.detector" />
         <item itemvalue="Python.Hough_line_and_Probabilistic_line_transform (1)" />
       </list>
     </recent_temporary>
@@ -732,7 +725,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607783220800</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="updated">
+      <created>1608221706092</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1608221706093</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
